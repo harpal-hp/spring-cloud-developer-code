@@ -1,0 +1,9 @@
+apply plugin: "org.springframework.boot"
+
+dependencies {
+    compile project(":components:rest-support")
+
+    compile "org.springframework.boot:spring-boot-starter-web"
+
+    testCompile project(":components:test-support")
+}
